@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e2f;
+  font-family: sans-serif;
+  color: #f1f1f1;
+}
+
+#outer-div {
+  background-color: #2d2f41;
+  width: 90vmin;
+  height: auto;
+  margin: 5vmin auto;
+  border-radius: 2vmin;
+  padding: 4vmin;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  font-size: 5vmin;
+  color: #00cec9;
+}
+
+#upper-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3vmin 0;
+  gap: 2vmin;
+}
+
+#task-input {
+  padding: 2vmin;
+  border-radius: 1vmin;
+  outline: none;
+  font-size: 3vmin;
+  width: 36vmin;
+  background-color: #3c3f58;
+  color: #f1f1f1;
+  border: 1px solid #4a4f6a;
+}
+
+#date-input {
+  padding: 2vmin;
+  font-size: 3vmin;
+  border: none;
+  border-radius: 1vmin;
+  width: 24vmin;
+  border: 1px solid #4a4f6a;
+  background-color: #3c3f58;
+  color: #f1f1f1;
+}
+
+#add-btn {
+  padding: 2vmin;
+  font-size: 3vmin;
+  border: none;
+  border-radius: 1vmin;
+  width: 15vmin;
+  background-color: #00b894;
+  color: white;
+  transition: all 0.5s ease;
+}
+#add-btn:hover {
+  transform: scale(1.1);
+}
+
+button {
+  cursor: pointer;
+}
+
+#task-div div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vmin;
+}
+
+#sp-1 {
+  padding: 2vmin;
+  border-radius: 1vmin;
+  border: none;
+  font-size: 3vmin;
+  width: 36vmin;
+  margin: 1vmin 0;
+  background-color: #3c3f58;
+  color: #f1f1f1;
+  border: 1px solid #4a4f6a;
+}
+
+#sp-2 {
+  padding: 2vmin;
+  border-radius: 1vmin;
+  border: none;
+  font-size: 3vmin;
+  width: 24vmin;
+  margin: 1vmin 0;
+  background-color: #3c3f58;
+  color: #f1f1f1;
+  border: 1px solid #4a4f6a;
+}
+
+#del-btn {
+  padding: 2vmin;
+  font-size: 3vmin;
+  border: none;
+  border-radius: 1vmin;
+  width: 15vmin;
+  margin: 1vmin 0;
+  background-color: #d63031;
+  color: white;
+  margin: 1vmin 0;
+  transition: all 0.5s ease;
+}
+
+#del-btn:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 265px) {
+  #task-input,
+  #date-input,
+  #sp-1,
+  #sp-2 {
+    width: 40%;
+  }
+}
