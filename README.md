@@ -4,7 +4,7 @@ This is a simple and responsive To-Do List App built using HTML, CSS, and vanill
 
 ## 🔗 Live Demo
 
-[Click here to use the app]/(https://kaustubh-dalvi1001.github.io/To-Do-App-JavaScript/)
+[Click here to use the app](https://kaustubh-dalvi1001.github.io/To-Do-App-JavaScript/)
 
 ## 📸 Screenshot
 
